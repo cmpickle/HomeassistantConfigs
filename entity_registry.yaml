@@ -1,0 +1,44 @@
+media_player.picklecast:
+  name:
+  platform: cast
+  unique_id: 9dc37301-5da1-63fa-29e7-9fecd3eddc4e
+media_player.family_room_speaker:
+  name: bedroom speaker
+  platform: cast
+  unique_id: 3af796ed-940d-64cd-a6d5-032258b5e772
+media_player.family_room_tv:
+  name:
+  platform: cast
+  unique_id: e673fbcc-981e-70c3-70d0-f2b28a44e6f0
+media_player.plex_plex_3d8e64dca2954bbab0d30ed123cd29ee:
+  name:
+  platform: plex
+  unique_id: 3d8e64dca2954bbab0d30ed123cd29ee
+media_player.plex_plex_a4c7d7a774796ccd_com_plexapp_android:
+  name:
+  platform: plex
+  unique_id: a4c7d7a774796ccd-com-plexapp-android
+media_player.plex_plex_5e046a349c4586f6d288d2c9c34ae3f3:
+  name:
+  platform: plex
+  unique_id: 5e046a349c4586f6d288d2c9c34ae3f3
+media_player.plex_plex_b8rwszzvjf8gwj3kj9l0862x:
+  name:
+  platform: plex
+  unique_id: b8rwszzvjf8gwj3kj9l0862x
+media_player.roku_2la521132558:
+  name:
+  platform: roku
+  unique_id: 2LA521132558
+media_player.plex_plex_636154173a198bee_com_plexapp_android:
+  name:
+  platform: plex
+  unique_id: 636154173a198bee-com-plexapp-android
+media_player.kitchen_speaker:
+  name:
+  platform: cast
+  unique_id: e8c3ec69-6e8b-538e-ed48-50d5d83f7d63
+media_player.bed_tv:
+  name:
+  platform: cast
+  unique_id: 6d03664b-6398-120c-4d4a-d663a2a585b3

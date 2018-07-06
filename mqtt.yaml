@@ -1,0 +1,3 @@
+  broker: !secret mqttip
+  username: !secret mqttusr
+  password: !secret mqttpwd

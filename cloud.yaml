@@ -1,0 +1,10 @@
+  google_actions:
+    filter: 
+      include_entities:
+        - switch.bedroom_lamp
+    entity_config:
+        switch.bedroom_lamp:
+          name: Bedroom Lamp
+          # aliases:
+          room: Bedroom
+ # config:

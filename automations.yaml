@@ -1,0 +1,11 @@
+- id: '1530504226085'
+  alias: Prayer
+  trigger:
+  - at: 05:46:00
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.family_room_speaker
+      message: Don't forget to say your morning prayers
+    service: tts.google_say

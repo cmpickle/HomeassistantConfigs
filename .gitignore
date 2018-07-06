@@ -1,0 +1,8 @@
+secrets.yaml
+plex.conf
+known_devices.yaml
+groups.yaml
+home-assistant_v2.db
+home-assistant.log
+tts/
+.cloud/

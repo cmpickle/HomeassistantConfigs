@@ -1,0 +1,82 @@
+homeassistant: !include homeassistant.yaml
+
+# Show links to resources in log and frontend
+# introduction:
+
+frontend: !include frontend.yaml
+
+mqtt: !include mqtt.yaml
+
+switch: !include switch.yaml
+
+# Weather prediction
+sensor: !include sensor.yaml
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud: !include cloud.yaml
+
+# IFTTT
+ifttt:
+  key: !secret iftttKey
+
+# Plex
+media_player: !include mediaplayer.yaml
+
+# Netgear
+device_tracker: !include devicetracker.yaml
+
+# Wake on LAN
+wake_on_lan:
+  mac:
+  broadcast_address:
+
+# Browser
+browser:
+
+# Logger
+logger:
+  default: info
+
+# Enables configuration UI
+config:
+
+http:
+  # Secrets are defined in the filesecrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

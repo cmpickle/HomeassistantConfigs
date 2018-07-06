@@ -1,0 +1,29 @@
+  - platform: yr
+
+  - platform: pi_hole
+    host: !secret pihubip
+
+  # Plex Monitor
+  - platform: plex
+    host: !secret plex_host
+    port: !secret plex_port
+    name: !secret plex_name
+    username: !secret plex_usr
+    password: !secret plex_password
+    server: !secret plex_name
+    token: !secret plex_token
+
+  # Steam
+  - platform: steam_online
+    api_key: !secret steam_api_key
+    accounts:
+      - !secret steam_account_id
+
+  - platform: time_date
+  #     display_options:
+  #       - 'time'
+  #       - 'date'
+  #       - 'date_time'
+  #       - 'time_date'
+  #       - 'time_utc'
+  #       - 'beat'

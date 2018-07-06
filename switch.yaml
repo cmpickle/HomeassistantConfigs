@@ -1,0 +1,63 @@
+  - platform: mqtt
+    name: "Bedroom Lamp"
+    command_topic: "cmnd/sonoff1/power"
+    state_topic: "stat/sonoff1/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Sonoff2"
+    command_topic: "cmnd/sonoff2/power"
+    state_topic: "stat/sonoff2/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Office Light"
+    command_topic: "cmnd/sonoff3/power"
+    state_topic: "stat/sonoff3/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Sonoff4"
+    command_topic: "cmnd/sonoff4/power"
+    state_topic: "stat/sonoff4/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Garage Door"
+    command_topic: "cmnd/sonoff5/power"
+    state_topic: "stat/sonoff5/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Sonoff6"
+    command_topic: "cmnd/sonoff6/power"
+    state_topic: "stat/sonoff6/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Sonoff7"
+    command_topic: "cmnd/sonoff7/power"
+    state_topic: "stat/sonoff7/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+
+  - platform: mqtt
+    name: "Sonoff8"
+    command_topic: "cmnd/sonoff8/power"
+    state_topic: "stat/sonoff8/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
